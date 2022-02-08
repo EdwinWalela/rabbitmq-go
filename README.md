@@ -12,3 +12,5 @@ Message brokering using RabbitMQ
 - Run `docker run -d --hostname my-rabbit --name rabbit-demo -p 15672:15672 -p 5672:5672 rabbitmq:3-management`
 
 - Access management console on: `http://localhost:15672`
+
+- On separate terminals run `go run consumer.go` & `go run producer.go`
